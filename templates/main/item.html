@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="title" content="landing">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Content</title>
+
+	<!-- CSS -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<!-- <script type="text/javascript" src="js/wow.min.js"></script> -->
+	<link rel="stylesheet" href="css\animate.css">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="css\rem.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css\main.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/anim.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css\mobile.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Marck+Script|Neucha&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="app" class="base" v-bind:class="{ tear: isActive}">
+		<div class="fix fix-static  trans">
+			<div class="wrap">
+				<div class="menu trans">
+        <a class="EX-ico X-ico trans" href="#" onclick="sound()" v-on:click="isActive = !isActive">
+            <span class="ico-bg blur"></span>
+                <img class="ico-l1" src="img\menu-l1.svg" alt="">
+                <img class="ico-l2" src="img\menu-l2.svg" alt="">
+                <img class="ico-l3" src="img\menu-l3.svg" alt="">
+            
+        </a>
+        <div class="pop-menu">
+                <a class="sound trans" v-bind:class="{ soundoff: !isSound}" href="#" v-on:click="isSound = !isSound">
+                    <img src="img\sound.png" alt="">
+                </a>
+            <ul class="ul-menu trans">
+                <li><a href="index.html.twig" v-on:click="isActive = !isActive">Главная</a></li>
+                <li><a href="portfolio.html" v-on:click="isActive = !isActive">Портфолио</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">О нас</a></li>
+            </ul>	
+            <div class="menu-l-bort"></div>
+            <div class="menu-r-bort"></div>
+            
+        </div>
+</div>            </div>
+        </div>
+        <div class="fix fix-dinamic trans">
+            <div class="wrap wrap-height">
+                <div class="head">
+    <div class="logo">
+        <a href="index.html.twig">
+            <img src="img\logo.svg" alt="">
+        </a>
+    </div>
+</div>				<div class="content">
+					<div class="content-scroll">
+						<div class="t-wrap main">
+							<div class="tr-wrap">
+								<div class="td-wrap">
+									<div class="portfolio-item animate">
+										<div class="title">
+											<h1>Ватсап лендинг</h1>
+										</div>
+										<div class="items">
+											<div class="item">
+												<div class="pict">
+													<span class="frame">
+														<i class="bort bort-r"><img src="img\bort-right.svg" alt=""></i>
+														<i class="bort bort-t"><img src="img\bort-bottom.svg" alt=""></i>
+														<i class="bort bort-l"><img src="img\bort-left.svg" alt=""></i>
+														<i class="bort bort-b"><img src="img\bort-bottom.svg" alt=""></i>
+													</span>
+														<div class="images">
+															<img class="img" src="img\img1.jpg" alt="sate">
+														</div>
+													<div class="hand anim-hand">
+														<img src="img\hand.png" alt="">
+													</div>
+												</div>
+												
+											</div>
+											<div class="item-info">
+												<div class="desc">
+													Описание проекта..
+												</div>
+												<div class="links"><a href="#" class="link font2">
+													Перейти на сайт
+												</a></div>
+											</div>
+										</div>
+										<div class="buttons">
+
+										</div>
+										<div class="btns">
+											<a href="portfolio.html" class="btn"><span class="btn-bg">назад</span></a> 
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<footer>
+    © Все права защищены CONTENT 2019
+</footer>				</div>
+					
+			</div>
+		</div>
+	</div>
+
+	<script src="js\vue.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
+</body>
+</html>

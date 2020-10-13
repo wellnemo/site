@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="title" content="landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Content</title>
+
+    <!-- CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css\rem.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script|Neucha&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="app" class="base" v-bind:class="{ tear: isActive}">
+    <div class="fix fix-static  trans">
+        <div class="wrap">
+            <div class="menu trans">
+                <a class="EX-ico X-ico trans" href="#" onclick="sound()" v-on:click="isActive = !isActive">
+                    <span class="ico-bg blur"></span>
+                    <img class="ico-l1" src="img\menu-l1.svg" alt="">
+                    <img class="ico-l2" src="img\menu-l2.svg" alt="">
+                    <img class="ico-l3" src="img\menu-l3.svg" alt="">
+
+                </a>
+                <div class="pop-menu">
+                    <a class="sound trans" v-bind:class="{ soundoff: !isSound}" href="#" v-on:click="isSound = !isSound">
+                        <img src="img\sound.png" alt="">
+                    </a>
+                    <ul class="ul-menu trans">
+                        <li><a href="index.php" v-on:click="isActive = !isActive">Главная</a></li>
+                        <li><a href="portfolio" v-on:click="isActive = !isActive">Портфолио</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">О нас</a></li>
+                    </ul>
+                    <div class="menu-l-bort"></div>
+                    <div class="menu-r-bort"></div>
+
+                </div>
+            </div>			</div>
+    </div>
+    <div class="fix fix-dinamic trans">
+        <div class="wrap wrap-height">
+            <div class="head">
+                <div class="logo">
+                    <a href="index.php">
+                        <img src="img\logo.svg" alt="">
+                    </a>
+                </div>
+            </div>				<div class="content">
+                <div class="content-scroll">
+                    <div class="t-wrap main">
+                        <div class="tr-wrap">
+                            <div class="td-wrap">
+                                <div class="questionary">
+                                    <div class="step step0 visible" v-bind:class="{ visible: Step==='0'}">
+                                        <div class="btns">
+                                            <a class="btn"><span class="btn-bg">У меня<b> есть </b>сайт</span></a>
+                                            <a class="btn btn-red"><span class="btn-bg">У меня<b> нет </b>сайта</span></a>
+                                        </div>										</div>
+                                    <div class="step step1">
+                                        <div class="description">
+                                            Мы помогаем вернуть ваш сайт к жизни и вывести его в ТОП
+                                        </div>
+                                        <div class="btns">
+                                            <a class="btn" v-on:click="isLoad = !isLoad" href="03.html"><span class="btn-bg"><i class="ico ico1"></i>продвижение</span></a>
+                                            <a class="btn btn-red" v-on:click="isLoad = !isLoad" href="#"><span class="btn-bg"><i class="ico ico2"></i>реанимация</span></a>
+                                            <a class="btn" v-on:click="isLoad = !isLoad" href="#"><span class="btn-bg"><i class="ico ico3"></i>поддержка</span></a>
+                                        </div>										</div>
+                                    <div class="step step11">
+                                        <div class="btns">
+                                            <div class="description">
+                                                Продвигаем через..
+                                            </div>
+                                            <a href="#" class="btn btn-green"><span class="btn-bg"><i class="ico ico4"></i><b>СЕО </b>органика</span></a> <a href="04.html" class="btn btn-red"><span class="btn-bg"><i class="ico ico5"></i>реклама</span></a></div>										</div>
+                                    <div class="step step112">
+                                        <div class="btns"><div class="description">
+                                                Рекламируем в...
+                                            </div> <a href="#" class="btn btn-red"><span class="btn-bg"><i class="ico ico7">Я</i><b>ндекс</b></span></a> <a href="#" class="btn"><span class="btn-bg"><i class="ico ico8">G</i><b>oogle</b></span></a> <a href="#" class="btn btn-red"><span class="btn-bg"><i class="ico ico6"></i><b>Таргет</b></span></a></div>										</div>
+                                    <div class="step">
+                                        <div class="description">
+                                            Для чего сайт?
+                                        </div>
+                                        <div class="btns">
+                                            <a class="btn btn-red" v-on:click="isLoad = !isLoad" href="05.html"><span class="btn-bg"><b>Творю</b> для себя</span></a>
+                                            <a class="btn" v-on:click="isLoad = !isLoad" href="06.html"><span class="btn-bg">для <b>бизнеса</b></span></a>
+
+                                        </div>										</div>
+                                    <div class="step">
+                                        <div class="btns"><div class="description">
+                                                Что делаем?
+                                            </div> <a href="#" class="btn btn-red"><span class="btn-bg"><i class="ico ico13"></i>Блог</span></a> <a href="#" class="btn"><span class="btn-bg"><i class="ico ico12"></i>Портфолио</span></a> <a href="#" class="btn btn-red"><span class="btn-bg"><i class="ico ico11"></i>Визитка</span></a></div>										</div>
+                                    <div class="step">
+                                        <div class="btns"><div class="description">
+                                                Что делаем?
+                                            </div> <a href="#" class="btn btn-red"><span class="btn-bg"><i class="ico ico9"></i>Интернет-магазин</span></a> <a href="#" class="btn"><span class="btn-bg"><i class="ico ico10"></i>Корпоративный сайт</span></a> <a href="#" class="btn btn-red"><span class="btn-bg"><i class="ico ico11"></i>Визитка</span></a></div>										</div>
+                                    <div class="links">
+                                        <a class="link font2" href="#">
+                                            Я только спросить
+                                        </a>
+                                    </div>
+                                    <div class="animation jsKubik" v-bind:class="[{ load: isLoad}, { cubblue: hoverBlue}, { cubred: hoverRed}]">
+                                        <img class="stat" src="img\cub.gif" alt="">
+                                        <img class="anim" src="img\cub-loader.gif" alt="">
+                                    </div>									</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                © Все права защищены CONTENT 2019
+            </footer>
+        </div>
+
+    </div>
+</div>
+
+<script src="js\vue.js" type="text/javascript"></script>
+<script>
+    window.onload = function() {
+        kubik.init();
+        kubik.show();
+
+        knopka.init();
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="title" content="landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Content</title>
+
+    <!-- CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css\rem.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script|Neucha&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="app" class="base" v-bind:class="{ tear: isActive}">
+    <div class="fix fix-static  trans">
+        <div class="wrap">
+            <div class="menu trans">
+                <a class="EX-ico X-ico trans" href="#" onclick="sound()" v-on:click="isActive = !isActive">
+                    <span class="ico-bg blur"></span>
+                    <img class="ico-l1" src="img\menu-l1.svg" alt="">
+                    <img class="ico-l2" src="img\menu-l2.svg" alt="">
+                    <img class="ico-l3" src="img\menu-l3.svg" alt="">
+
+                </a>
+                <div class="pop-menu">
+                    <a class="sound trans" v-bind:class="{ soundoff: !isSound}" href="#" v-on:click="isSound = !isSound">
+                        <img src="img\sound.png" alt="">
+                    </a>
+                    <ul class="ul-menu trans">
+                        <li><a href="index.php" v-on:click="isActive = !isActive">Главная</a></li>
+                        <li><a href="portfolio" v-on:click="isActive = !isActive">Портфолио</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">О нас</a></li>
+                    </ul>
+                    <div class="menu-l-bort"></div>
+                    <div class="menu-r-bort"></div>
+
+                </div>
+            </div>            </div>
+    </div>
+    <div class="fix fix-dinamic trans">
+        <div class="wrap wrap-height">
+            <div class="head">
+                <div class="logo">
+                    <a href="index.php">
+                        <img src="img\logo.svg" alt="">
+                    </a>
+                </div>
+            </div>                <div class="content">
+                <div class="content-scroll">
+                    <div class="t-wrap main">
+                        <div class="tr-wrap">
+                            <div class="td-wrap">
+                                <div class="portfolio">
+                                    <div class="title">
+                                        <h1>Портфолио</h1>
+                                        <div class="rubrics font2">
+                                            <a class="link" href="#">Рубрикатор</a>
+                                            <a class="link" href="#">портфолио</a>
+                                        </div>
+                                    </div>
+                                    <div class="items">
+                                        <div class="item">
+                                            <div class="pict">
+                                                <a href="item">
+                                                        <span class="frame">
+															<img src="img\frame.svg" alt="">
+														</span>
+                                                    <img src="img\img1.jpg" alt="sate">
+                                                </a>
+                                            </div>
+                                            <div class="desc">
+                                                Ватсап лендинг
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="pict">
+                                                <a href="item">
+                                                        <span class="frame">
+															<img src="img\frame.svg" alt="">
+														</span>
+                                                    <img src="img\img2.jpg" alt="sate">
+                                                </a>
+                                            </div>
+                                            <div class="desc">
+                                                Ватсап лендинг
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    © Все права защищены CONTENT 2019
+                </footer>                </div>
+
+        </div>
+    </div>
+
+    <script src="js\vue.js" type="text/javascript"></script>
+</div></body></html>

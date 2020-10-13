@@ -1,0 +1,196 @@
+Uri: http://verstka.web-content.top/
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\index.htm
+Content Type: text/html
+
+Uri: http://verstka.web-content.top/css/rem.css
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\css\rem.css
+Content Type: text/css
+
+Uri: http://verstka.web-content.top/css/main.css
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\css\main.css
+Content Type: text/css
+
+Uri: http://verstka.web-content.top/css/mobile.css
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\css\mobile.css
+Content Type: text/css
+
+Uri: http://verstka.web-content.top/index.php
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\index.html
+Content Type: text/html
+
+Uri: http://verstka.web-content.top/portfolio.php
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\portfolio.html
+Content Type: text/html
+
+Uri: http://verstka.web-content.top/03.html
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\03.html
+Content Type: text/html
+
+Uri: http://verstka.web-content.top/04.html
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\04.html
+Content Type: text/html
+
+Uri: http://verstka.web-content.top/05.html
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\05.html
+Content Type: text/html
+
+Uri: http://verstka.web-content.top/06.html
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\06.html
+Content Type: text/html
+
+Uri: http://verstka.web-content.top/img/menu-l1.svg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\menu-l1.svg
+Content Type: image/svg+xml
+
+Uri: http://verstka.web-content.top/img/menu-l2.svg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\menu-l2.svg
+Content Type: image/svg+xml
+
+Uri: http://verstka.web-content.top/img/menu-l3.svg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\menu-l3.svg
+Content Type: image/svg+xml
+
+Uri: http://verstka.web-content.top/img/sound.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\sound.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/logo.svg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\logo.svg
+Content Type: image/svg+xml
+
+Uri: http://verstka.web-content.top/img/cub.gif
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\cub.gif
+Content Type: image/gif
+
+Uri: http://verstka.web-content.top/img/cub-loader.gif
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\cub-loader.gif
+Content Type: image/gif
+
+Uri: http://verstka.web-content.top/js/vue.js
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\js\vue.js
+Content Type: application/javascript
+
+Uri: http://verstka.web-content.top/img/menu-bg1.jpg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\menu-bg1.jpg
+Content Type: image/jpeg
+
+Uri: http://verstka.web-content.top/img/menu-bg1.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\menu-bg1.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/menu-bg2.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\menu-bg2.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/btn1.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\btn1.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico1.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico1.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico2.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico2.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico3.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico3.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico4-1.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico4-1.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico4-2.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico4-2.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico5.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico5.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico6-1.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico6-1.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico6-2.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico6-2.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico7.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico7.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico8.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico8.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico9.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico9.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico10.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico10.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico11.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico11.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico12.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico12.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/ico13.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\ico13.png
+Content Type: image/png
+
+Uri: http://verstka.web-content.top/img/cub-white.gif
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\cub-white.gif
+Content Type: image/gif
+
+Uri: http://verstka.web-content.top/img/cub-blue.gif
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\cub-blue.gif
+Content Type: image/gif
+
+Uri: http://verstka.web-content.top/img/cub-red.gif
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\cub-red.gif
+Content Type: image/gif
+
+Uri: http://verstka.web-content.top/item.php
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\item.html
+Content Type: text/html
+
+Uri: http://verstka.web-content.top/img/frame.svg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\frame.svg
+Content Type: image/svg+xml
+
+Uri: http://verstka.web-content.top/img/img1.jpg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\img1.jpg
+Content Type: image/jpeg
+
+Uri: http://verstka.web-content.top/img/img2.jpg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\img2.jpg
+Content Type: image/jpeg
+
+Uri: http://verstka.web-content.top/css/animate.css
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\css\animate.css
+Content Type: text/css
+
+Uri: http://verstka.web-content.top/img/bort-right.svg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\bort-right.svg
+Content Type: image/svg+xml
+
+Uri: http://verstka.web-content.top/img/bort-bottom.svg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\bort-bottom.svg
+Content Type: image/svg+xml
+
+Uri: http://verstka.web-content.top/img/bort-left.svg
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\bort-left.svg
+Content Type: image/svg+xml
+
+Uri: http://verstka.web-content.top/img/hand.png
+File Name: c:\Downloaded Web Sites\verstka.web-content.top\img\hand.png
+Content Type: image/png
+

@@ -1,0 +1,38 @@
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 14px;
+  } 
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 3vw;
+  }
+  .wrap {
+    width: 90%;
+    margin: 5%;
+  }
+  .portfolio-item .items{
+    display: block;
+  }
+  .portfolio-item .item {
+    width: 100%;
+    margin: 0;
+<<<<<<< HEAD
+  }
+  .animation{
+    float: none; 
+    width: 12rem;
+  }
+  .portfolio .item {
+    width: 100%;
+    margin: 2% 0;
+    float: none;
+  }
+  footer {
+    text-align: center;
+  }
+=======
+}
+>>>>>>> 79e7c50e1f5b44dfc4c3eeb344ac4c0bda89bdbd
+
+}
